@@ -20,7 +20,8 @@ The goal of this project is to find lane lines in images and highlight them.
 
 ### 1. Software pipeling for simple lane lines finding
 
-![title][image3]
+
+![title-img][image3]
 
 #### 1.1 Grayscale the image
 
@@ -62,7 +63,9 @@ I included an if-statement to check if the mean value of the slope is 'Not a Num
 
 Last step is to insert the lines to the initial image by applying the weighted_img function.
 
+Final output:
 
+![output][image2]
 
 ### 2. Potential shortcomings with current pipeline
 
