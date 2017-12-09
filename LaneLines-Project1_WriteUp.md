@@ -8,10 +8,11 @@ The goal of this project is to find lane lines in images and highlight them.
 
 
 [//]: # (Image References)
-[//]: # (use it with  ![hog features][image1])
 
 [image1]: ./examples/grayscale.jpg 
+
 [image2]: ./examples/laneLines_thirdPass.jpg
+
 [image3]: ./examples/line-segments-example.jpg
 ---
 
@@ -24,6 +25,11 @@ The goal of this project is to find lane lines in images and highlight them.
 #### 1.1 Grayscale the image
 
 For further processing (e.g. to Hough Space) the image needs to be grayscaled. Therefore the function `grayscale()` is implemented. It uses openCV to return a grayscaled copy for an input image.
+
+Picture of a gray-scaled image:
+
+
+![gray-scale][image1]
 
 #### 1.2 Gaussian Blur
 
