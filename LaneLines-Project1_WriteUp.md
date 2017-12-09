@@ -14,6 +14,7 @@ The goal of this project is to find lane lines in images and highlight them.
 [image2]: ./examples/laneLines_thirdPass.jpg
 
 [image3]: ./examples/line-segments-example.jpg
+
 ---
 
 ### Reflection
